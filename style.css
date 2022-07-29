@@ -17,3 +17,6 @@
 .content_head {
   max-width: 600px;
 }
+.test {
+  border: 5px solid red;
+}
