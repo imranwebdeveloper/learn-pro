@@ -266,51 +266,7 @@
           </button>
         </div>
       </section>
-      <!-- ------------------ Explorer Institute Section Start ------------------- -->
-      <section class="py-5 d-lg-flex rounded min-vh-100">
-        <div class="">
-          <img src="./imgs/working.png" alt="img" class="" />
-        </div>
-        <article
-          class="p-4 d-flex flex-column justify-content-center align-items-start"
-        >
-          <h1 class="py-1">Explore The e-learning Institute</h1>
-          <p>
-            The eLearning Institute is a virtual destination for professionals
-            in various arenas of higher education to meet ongoing professional
-            development needs and to gain access to the most current research in
-            academe. The eLearning Institute is an excellent source for
-            individuals to publish the latest research and best practices in
-            their respective academic fields in higher education and to
-            collaborate, create, innovate, and share with other distinguished
-            educational professionals.
-          </p>
-          <p>
-            Learn With Pro is a leading publishing platform that delivers
-            inspiring, industry-specific content to eLearning professionals. As
-            a top-tier eLearning marketplace, we offer a plethora of
-            sophisticated, online marketing solutions to corporate training
-            companies to empower and help them grow.
-          </p>
-          <div class="d-flex justify-content-between w-100 py-2">
-            <div>
-              <h1>3.2K +</h1>
-              <p class="lead">Online Courses</p>
-            </div>
-            <div>
-              <h1>600 +</h1>
-              <p class="lead">Expert Member</p>
-            </div>
-            <div>
-              <h1>1.2K</h1>
-              <p class="lead">Ratting Review</p>
-            </div>
-          </div>
-          <button type="btn" class="btn btn-primary px-4 py-2 fw-bold">
-            Read More
-          </button>
-        </article>
-      </section>
+
       <!-- ----------------------- Register Section Start ------------------------ -->
       <section
         class="my-4 p-5 bg-primary d-lg-flex justify-content-between align-items-center"
@@ -327,9 +283,71 @@
           <button
             type="button"
             class="btn bg-white px-4 py-2 fw-bold text-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
           >
             Register Now
           </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Registration Form
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter email"
+                      />
+                      <small id="emailHelp" class="form-text text-muted"
+                        >We'll never share your email with anyone else.</small
+                      >
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                        placeholder="Password"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary px-4 py-2"
+                    data-bs-dismiss="modal"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- --------------------------- Student Section Start --------------------------- -->
@@ -356,7 +374,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-xl-3 col-sm-12">
+          <div class="col-md-6 col-xl-3 col-sm-12">
             <div class="card">
               <img
                 src="./images/student/student-2.png"
@@ -369,7 +387,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-xl-3 col-sm-12">
+          <div class="col-md-6 col-xl-3 col-sm-12">
             <div class="card">
               <img
                 src="./images/student/student-3.png"
@@ -382,7 +400,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-xl-3 col-sm-12">
+          <div class="col-md-6 col-xl-3 col-sm-12">
             <div class="card">
               <img
                 src="./images/student/student-4.png"
@@ -424,7 +442,7 @@
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Accordion Item #1
+                  What is difference between Flex and Flexbox?
                 </button>
               </h2>
               <div
@@ -434,15 +452,22 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <ul>
+                    <li>
+                      Flexbox is designed for one-dimensional layouts, and Grid
+                      for two-dimensional layouts
+                    </li>
+                    <li>
+                      The approach of CSS Grid is the layout first, while the
+                      Flexbox approach is primarily the content.
+                    </li>
+                    <li>
+                      The Flexbox layout is best suited to application
+                      components and small-scale layouts, while the Grid layout
+                      is designed for larger-scale layouts that are not linear
+                      in design
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -456,7 +481,7 @@
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Accordion Item #2
+                  What is the difference between CSS and Tailwind CSS?
                 </button>
               </h2>
               <div
@@ -466,15 +491,20 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <h5>Tailwind CSS</h5>
+                  <p>
+                    Tailwind CSS uses a set of utility classes to create a neat
+                    UI with more flexibility and uniqueness. Tailwind offers
+                    predesigned widgets to build a site from scratch with fast
+                    UI development.
+                  </p>
+                  <h5>Bootstrap</h5>
+                  <p>
+                    Bootstrap comes with a set of pre-styled responsive,
+                    mobile-first components that possess a definite UI kit.
+                    Sites created using Bootstrap follow the generic pattern
+                    that makes them look identical
+                  </p>
                 </div>
               </div>
             </div>
@@ -488,7 +518,7 @@
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  Accordion Item #3
+                  What do you mean by CSS box model?
                 </button>
               </h2>
               <div
@@ -498,15 +528,44 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <p>
+                    The CSS box model is essentially a box that wraps around
+                    every HTML element. It consists of: margins, borders,
+                    padding, and the actual content. The box model allows us to
+                    add a border around elements, and to define space between
+                    elements.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsefour"
+                  aria-expanded="false"
+                  aria-controls="collapsefour"
+                >
+                  What are Semantic Tags?
+                </button>
+              </h2>
+              <div
+                id="collapsefour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingfour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    A semantic element clearly describes its meaning to both the
+                    browser and the developer.What do we use semantic elements
+                    for? Semantic HTML refers to syntax that makes the HTML more
+                    comprehensible by better defining the different sections and
+                    layout of web pages. It makes web pages more informative and
+                    adaptable,
+                  </p>
                 </div>
               </div>
             </div>
@@ -514,7 +573,6 @@
         </div>
       </section>
 
-      <!-- --------------------------- FQA Section End --------------------------- -->
       <!-- --------------------------- Client Section Start ---------------------------- -->
       <section class="py-5 d-none d-xl-block">
         <h1 class="text-center display-5 fw-bold">
@@ -565,9 +623,7 @@
           </div>
         </div>
       </section>
-      <!-- ------------------------- Client Section End -------------------------- -->
     </main>
-    <!-- -------------------------- Main Section End --------------------------- -->
     <!-- --------------------------- Footer start ---------------------------- -->
     <footer class="bg-black py-5">
       <section class="container text-center py-5 text-white">
