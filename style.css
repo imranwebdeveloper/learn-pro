@@ -1,0 +1,16 @@
+.banner {
+  min-height: calc(100vh - 11vh);
+  background-size: cover;
+}
+.banner-one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./cover/cover-1.png");
+}
+.banner-two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./cover/cover-2.jpg");
+}
+.banner-three {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./cover/cover-3.jpg");
+}
