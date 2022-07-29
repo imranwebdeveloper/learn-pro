@@ -1,6 +1,8 @@
 .banner {
   min-height: calc(100vh - 11vh);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .banner-one {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
